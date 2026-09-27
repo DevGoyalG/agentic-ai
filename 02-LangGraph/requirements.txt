@@ -1,0 +1,5 @@
+langchain
+langgraph
+langchain-core
+langchain-community
+ipykernel
