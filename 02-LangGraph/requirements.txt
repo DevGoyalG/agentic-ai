@@ -6,3 +6,5 @@ ipykernel
 python-dotenv
 langchain-openai
 langchain-groq
+arxiv==1.4.8
+wikipedia
