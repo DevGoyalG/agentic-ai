@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "groq-agent": "./groq-agent.py:agent"
+  },
+  "env": "../.env"
+}
