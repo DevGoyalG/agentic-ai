@@ -9,3 +9,7 @@ langchain-groq
 arxiv==1.4.8
 wikipedia
 langgraph-cli[inmem]
+langchain_huggingface
+langchain-text-splitters
+sentence_transformers
+faiss-cpu
