@@ -1,0 +1,4 @@
+ipykernel
+python-dotenv
+pageindex
+groq
