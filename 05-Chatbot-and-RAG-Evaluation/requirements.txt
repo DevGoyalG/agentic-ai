@@ -1,0 +1,9 @@
+python-dotenv
+ipykernel
+langchain
+langchain-groq
+langchain-community
+langsmith
+pydantic
+typing-extensions
+beautifulsoup4
