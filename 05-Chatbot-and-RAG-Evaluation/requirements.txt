@@ -7,3 +7,7 @@ langsmith
 pydantic
 typing-extensions
 beautifulsoup4
+langchain-huggingface
+tiktoken
+sentence-transformers
+pandas
