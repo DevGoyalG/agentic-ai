@@ -3,6 +3,6 @@ python-dotenv
 langchain
 langchain-openai
 langchain-groq
-langchain_quickjs
+# langchain_quickjs
 tavily-python
 deepagents
