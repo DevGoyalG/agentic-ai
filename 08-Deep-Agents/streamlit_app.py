@@ -2,7 +2,7 @@
 Deep Agents Chatbot — Streamlit app
 ====================================
 A conversational chatbot built on the `deepagents` library that demonstrates
-EVERY feature covered in the deepagentsdemo notebooks:
+EVERY feature covered in the "08-Deep-Agents" notebooks:
 
 08-01-basic-deep-agent.ipynb     -> create_deep_agent, custom model, custom system
                              prompt, custom tools (Tavily web search),
@@ -91,7 +91,7 @@ def load_agents_md() -> str:
 
 
 def load_skill_seed_files() -> dict:
-    """Read every file under deepagentsdemo/skills/ and convert it to in-state
+    """Read every file under 08-Deep-Agents/skills/ and convert it to in-state
     file data so the StateBackend agent can discover and read skills."""
     files = {}
     skills_root = DEMO_DIR / "skills"
@@ -133,7 +133,7 @@ def build_agent(cfg: dict):
         memory_paths = ["/projects/AGENTS.md"] if cfg["use_agents_md"] else None
 
     elif cfg["backend"] == "FilesystemBackend (real disk)":
-        # virtual_mode=True confines the agent inside deepagentsdemo/
+        # virtual_mode=True confines the agent inside 08-Deep-Agents/
         backend = FilesystemBackend(root_dir=str(DEMO_DIR), virtual_mode=True)
         # AGENTS.md and skills/ already exist on disk — nothing to seed
         memory_paths = ["/projects/AGENTS.md"] if cfg["use_agents_md"] else None
@@ -298,7 +298,7 @@ with st.sidebar:
             "StoreBackend (cross-thread store)",
         ],
         help="Notebook 3: StateBackend = ephemeral per-thread; "
-             "FilesystemBackend = real files under deepagentsdemo/; "
+             "FilesystemBackend = real files under 08-Deep-Agents/; "
              "StoreBackend = survives across threads via a LangGraph store.",
     )
 
