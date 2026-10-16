@@ -5,3 +5,4 @@ langchain-openai
 langchain-groq
 tavily-python
 deepagents
+streamlit
